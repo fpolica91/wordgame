@@ -38,8 +38,7 @@ findWordInLine word line = word `isInfixOf` line
 
 -- or (map (findWordInLine "HASKELL") grid)
 -- findWord (map reverse grid) "PERL"
-grid =
-  [ "__C________R___",
+grid = [ "__C________R___",
     "__SI________U__",
     "__HASKELL____B_",
     "__A__A_____S__Y",
